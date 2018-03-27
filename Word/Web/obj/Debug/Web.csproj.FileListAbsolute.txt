@@ -37,3 +37,8 @@ F:\GIT\words\Word\Web\bin\zh-Hans\System.Web.Mvc.resources.dll
 F:\GIT\words\Word\Web\obj\Debug\Web.csprojResolveAssemblyReference.cache
 F:\GIT\words\Word\Web\obj\Debug\Web.dll
 F:\GIT\words\Word\Web\obj\Debug\Web.pdb
+F:\GIT\words\Word\Web\bin\EntityFramework.dll
+F:\GIT\words\Word\Web\bin\EntityFramework.SqlServer.dll
+F:\GIT\words\Word\Web\bin\EntityFramework.xml
+F:\GIT\words\Word\Web\bin\EntityFramework.SqlServer.xml
+F:\GIT\words\Word\Web\bin\zh-Hans\EntityFramework.resources.dll
