@@ -1,0 +1,131 @@
+@charset "utf-8";
+/* CSS Document */
+body{margin:0 auto; background-color:#f7f7f7; font-family:"Microsoft yahei"; font-size:12px; color:#666;}
+div,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,p,span,img,form,label,fieldset,legend{ margin:0px; padding:0px;}
+a{text-decoration: none; color:5b1700;}
+a:hover{text-decoration:bone;}
+ul,li{list-style:none;}
+.fl{float:left;}
+.fr{float:right;}
+.clear{clear:both;}
+.w{ width:1200px; margin:0 auto;}
+
+/* 除IE6浏览器的通用方法 */
+.ie6fixedTL{position:fixed;left:0;top:0}
+.ie6fixedBR{position:fixed;right:0;bottom:0}
+/* IE6浏览器的特有方法 */
+/* 修正IE6振动bug */
+* html,* html body{background-image:url(about:blank);background-attachment:fixed}
+* html .ie6fixedTL{position:absolute;left:expression(eval(document.documentElement.scrollLeft));top:expression(eval(document.documentElement.scrollTop))}
+* html .ie6fixedBR{position:absolute;left:expression(eval(document.documentElement.scrollLeft+document.documentElement.clientWidth-this.offsetWidth)-(parseInt(this.currentStyle.marginLeft,10)||0)-(parseInt(this.currentStyle.marginRight,10)||0));top:expression(eval(document.documentElement.scrollTop+document.documentElement.clientHeight-this.offsetHeight-(parseInt(this.currentStyle.marginTop,10)||0)-(parseInt(this.currentStyle.marginBottom,10)||0)))}
+
+/***top****/
+.top{ height:32px; line-height:32px; background:#f6f6f6; width:100%; border-bottom:1px solid #ddd}
+.top a{ color:#666}
+.top .top_left a{ margin:0px 4px;}
+.top .top_right a{ margin:0px 10px; }
+/**面包屑**/
+.mnav{ width:1160px; margin:0 auto; height:34px; margin-top:14px; line-height:34px; background:#fff; padding:0px 10px; border:1px solid #e5e5e5}
+
+
+
+/***head****/
+.head{ height:110px; overflow:hidden; background:#fff; }
+.head .h_logo{ margin:30px; }
+.head .h_nav { width:800px;}
+.head .h_nav ul li{ float:left;  font-size:20px; text-align:center; color:#3e3e3e; margin:0px  35px;  padding:33px  0px;}
+.head .h_nav ul li .c1{ color:#a3a3a3; font-size:10px;}
+
+.head .h_nav ul li.on{ color:#ff0d0d; border-bottom:2px solid #ff0d0d}
+.head .h_nav ul li.on .c1{ color:#ff0d0d}
+/***bottom****/
+.bottom{ background:#5e5e5e; height:67px; line-height:67px; color:#fff; font-size:14px; }
+.bottom a{ color:#fff; margin:0px 20px;}
+
+/*****banner*****/
+.banner{ height:410px; background:#eee;}
+
+/****main_nav****/
+.main_nav{ width:981px; margin:0 auto; height:241px; padding:15px 0px;}
+.main_nav ul li{ background:#f9f9f9; width:273px; height:63px; float:left; cursor:pointer; padding:20px; margin-right:20px; }
+.main_nav ul li .nav_img { width:65px; height:63px; background:url(images/mj_icon.png) 0px 0px  no-repeat; margin-right:20px; }
+.main_nav ul li .c2{ background-position:-74px 0px;}
+.main_nav ul li .c3{ background-position:-154px 0px;}
+.main_nav ul li .c4{ background-position:-225px 0px;}
+.main_nav ul li .c5{ background-position:-305px 0px;}
+.main_nav ul li .c6{ background-position:-376px 0px;}
+.main_nav ul li:hover{ background:#09bada;color:#fff;}
+.main_nav ul li:hover h6{ color:#fff;}
+.main_nav ul li:hover span{ color:#fff;}
+.main_nav ul li:hover .c2{ background-position:-74px -70px;}
+.main_nav ul li:hover .c3{ background-position:-154px -70px;}
+.main_nav ul li:hover .c4{ background-position:-225px -70px;}
+.main_nav ul li:hover .c5{ background-position:-305px -70px;}
+.main_nav ul li:hover .c6{ background-position:-376px -70px;}
+.main_nav ul li:hover .c1{ background-position:0px -70px;}
+.main_nav ul li h6{ font-size:20px; color:#5f5f5f; line-height:30px;}
+.main_nav ul li span{ font-weight:normal; font-size:14px; color:#919191}
+
+
+/*****main_list***/
+.main_list{ background:url(images/inexdimg1.jpg) center no-repeat; height:648px; }
+
+/***推荐心语****/
+.main_list_table { width:810px; margin:0 auto; color:#fff; font-size:14px; padding-top:50px;}
+.main_list_table .hd { height:40px; overflow:hidden;}
+.main_list_table .hd ul {width: 600px; overflow: hidden; margin: 0 auto;}
+.main_list_table .hd ul li{ float:left; cursor:pointer; width:113px; height:32px; margin:4px 14px;  border:1px solid #fff; text-align:center; line-height:32px;}
+.main_list_table .hd ul li.on{ background:#fff; color:#666;}
+.main_list_table .bd ul { margin-top:40px;}
+.main_list_table .bd ul li { overflow:hidden; padding:20px 0px; border-bottom:1px dashed #fff; }
+.main_list_table .bd ul li p{ width:790px; font-size:16px; line-height:30px; margin-bottom:15px;  }
+.main_list_table .bd ul li span{ margin-right:20px;} 
+
+/**推荐名人**/
+.tuijianmr_tit{ width:530px; border-bottom:1px solid #eee; height:40px; line-height:40px;}
+.tuijianmr_tit h4{ border-bottom:1px solid #f40; font-size:18px;  color:#333; height:40px; line-height:39px; width:300px; background:url(images/tit_img.jpg) left center no-repeat; padding-left:28px; } 
+.tuijianmr_tit h4 span{ font-weight:normal; color:#666; font-size:12px; }
+.tuijianmr ul { overflow:hidden;} 
+.tuijianmr ul li{width: 234px;padding:22px 15px;overflow: hidden;float:left;border-bottom:1px dotted #eee;}
+.tuijianmr ul li .tjmr_img{ }
+.tuijianmr ul li .tjmr_text{ width:112px; margin-left:20px;  }
+.tuijianmr ul li .tjmr_text h6{ font-size:18px; color:#444;line-height:30px; }
+.tuijianmr ul li .tjmr_text a { line-height:30px;}
+
+/***通用**/
+.main{ width:1180px; margin:15px auto; overflow:hidden; }
+/**名人名句**/
+.right { width:809px; }
+.right-box{ width:755px; border:1px solid #eee; padding:17px 26px; height:578px; background:#fff}
+.right-box .box-banner{ }
+.right-box .box-tit{margin:22px 0px; }
+
+.right-box .box-list { padding:10px;}
+.right-box .box-list h3{font-size:18px;color:#444;background: url(images/mr_fltit4.jpg) left center no-repeat;padding-left:30px;}
+.right-box .box-list p a{ color:#444; padding-right:20px; font-size:16px; line-height:60px; }
+.right-box .box-list p { padding-left:40px}
+.right-box .box-list p a:hover{ color:#f40;}
+
+.cont-list{padding: 20px 0px 20px 0px;border-bottom: 1px dotted #eee;}
+.cont-list-cont p{ font-size:16px; color:#333 }
+.cont-list-cont2{ height:40px; line-height:40px;}
+.cont-list-cont3 span{ margin-right:20px; }
+.cont-list-cont3 span i{ width:21px; height:19px; display:inline-block; background:url(images/mr_fltit3.jpg) 0px 0px; }
+.cont-list-cont3 .pl i{ background-position:-85px 0px;}
+
+/**右侧开始**/
+.left-box{ width:338px; border:1px solid #eee; background:#fff; padding:10px;}
+.left-box .left-tit h5{ font-size:16px; color:#f40; font-weight:normal; line-height:24px; height:30px; border-bottom:1px solid #eee }
+.left-box .left-tit h5 span{ color:#666; font-size:12px;}
+.left-box .left-tit i{ width:20px; height:24px; padding-right:10px; display:inline-block; background:url(images/mr_fltit3.jpg) -27px 0px no-repeat; vertical-align:middle}
+.mr ul li{ width:128px; text-align:center; font-size:12px; color:#444;  float:left; margin:8px 16px;  }
+.mr ul li p{ margin:5px 0px;}
+.mr ul { overflow:hidden}
+.fljs h6{ font-size:14px; color:#4b4b4b; margin-top:10px; }
+.fljs a{ color:#686868; font-size:14px; margin-right:10px;}
+.mrjs h2{ font-size:16px; color:#333; line-height:40px;margin-left:20px;}
+.mrjs  .line { margin-left:20px;}
+.mrjs  .line .line1{width: 70px;display:inline-block;text-align:center;float:left;color:#999;}
+.mrjs  .line .line2{width: 232px;display:inline-block;color:#444;}
+.button { overflow:hidden; padding:5px 0px; margin-top:10px; border-top:1px solid #eee}
+.button  ul li{ float:left; margin:5px 10px; text-align:center;}
